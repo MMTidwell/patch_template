@@ -1,13 +1,18 @@
 /*----------------------------------------- BODY -----------------------------------------*/
 body {
 	font-family: 'Reem Kufi', sans-serif;
+	font-size: 16px;
+
 }
 
 /*----------------------------------------- NAVBAR -----------------------------------------*/
 #nav-logo {
 	margin: 0 auto;
 	padding: 2% 0% 2% 0%;
-	/*margin: 0% 0% 0% 0%;*/
+}
+
+#patch-navbar {
+	padding: 0%;
 }
 
 #nav-button {
@@ -24,6 +29,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	background-color: white;
 }
 
 #nav-list > li > a {
@@ -32,15 +38,46 @@ body {
 
 #nav-list > li > a:hover,
 #nav-drop > li > a:hover {
+	font-size: 20px;
 	background-color: #98ccc1;
 }
 
 #nav-drop > li > a {
 	padding: 2%;
-	font-size: 14px;
+}
+
+.affix {
+	top: 0px;
+	width: 100%;
+	z-index: 9999 !important;
 }
 
 
+
+/*----------------------------------------- HOME -----------------------------------------*/
+#home-video {
+	margin: 0% 0% 5% 0%;
+}
+
+#home-blockquote {
+	margin: 5% 0% 5% 0%;
+	font-weight: bolder;
+	font-size: 20px;
+}
+/*----------------------------------------- FOOTER -----------------------------------------*/
+#footer-main {
+	text-align: center;
+}
+
+#footer-social {
+	color: #98ccc1;
+	margin: 1% 1% 1% 1%;
+}
+
+#footer-copy {
+	font-size: 10px;
+	font-weight: smaller;
+}
 /*----------------------------------------- MEDIA -----------------------------------------*/
 @media screen and (max-width:767px) {
 	/*----------------- NAVBAR -----------------*/
@@ -68,5 +105,11 @@ body {
 		width: 100%;
 		text-align: right;
 		display: block;
+	}
+
+	#nav-list > li > a:hover,
+	#nav-drop > li > a:hover {
+		background-color: #98ccc1;
+		padding: 3% 10% 3% 3%;
 	}
 }
