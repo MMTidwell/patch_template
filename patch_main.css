@@ -1,0 +1,72 @@
+/*----------------------------------------- BODY -----------------------------------------*/
+body {
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+/*----------------------------------------- NAVBAR -----------------------------------------*/
+#nav-logo {
+	margin: 0 auto;
+	padding: 2% 0% 2% 0%;
+	/*margin: 0% 0% 0% 0%;*/
+}
+
+#nav-button {
+	border: 1px solid black;
+	position: relative;
+	background-color: #98ccc1;
+}
+
+.icon-bar {
+	border: 1px solid black;
+}
+
+#nav-list {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#nav-list > li > a {
+	color: black;
+}
+
+#nav-list > li > a:hover,
+#nav-drop > li > a:hover {
+	background-color: #98ccc1;
+}
+
+#nav-drop > li > a {
+	padding: 2%;
+	font-size: 14px;
+}
+
+
+/*----------------------------------------- MEDIA -----------------------------------------*/
+@media screen and (max-width:767px) {
+	/*----------------- NAVBAR -----------------*/
+	#nav-logo {
+		position: absolute;
+		height: 5%;
+		margin: 0% 0% 0% 45%;
+		padding-top: 1%;
+	}
+
+	#patch-navbar {
+		width: 100%;
+		text-align: right;
+		margin: 0%;
+		padding: 0%;
+	}
+
+	#nav-drop {
+		text-align: right;
+		border: none;
+	}
+
+	#nav-list,
+	#nav-list > li > a {
+		width: 100%;
+		text-align: right;
+		display: block;
+	}
+}
