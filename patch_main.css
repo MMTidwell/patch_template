@@ -2,9 +2,25 @@
 body {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 16px;
-
+	text-align: justify;
 }
 
+/*----------------------------------------- MULIT PAGE -----------------------------------------*/
+#main-button {
+	background-color: #98ccc1;
+	color: black;
+	border: none;
+	padding: 2% 3% 2% 3%;
+	margin: 5% 0% 0% 0%;
+}
+
+#login-button {
+	background-color: #98ccc1;
+	color: black;
+	border: none;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 0% 0% 0%;	
+}
 /*----------------------------------------- NAVBAR -----------------------------------------*/
 #nav-logo {
 	margin: 0 auto;
@@ -64,9 +80,41 @@ body {
 	font-weight: bolder;
 	font-size: 20px;
 }
+
+#home-placeholder-img {
+	border-radius: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 8%;
+}
+
+#home-info {
+	width: 29%;
+	float: left;
+	text-align: center;
+	margin: 0% 2% 3% 2%;
+}
+
+#home-login-img {
+	display: relative;
+	width: 100vw;
+	height: 20vh;
+	margin: 2% 0% 2% 0%;
+}
+
+#home-login-text {
+	display: absolute;
+	transform: translate(0%, -175%);
+	font-weight: bolder;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
 /*----------------------------------------- FOOTER -----------------------------------------*/
 #footer-main {
 	text-align: center;
+	width: 30%;
 }
 
 #footer-social {
@@ -84,7 +132,7 @@ body {
 	#nav-logo {
 		position: absolute;
 		height: 5%;
-		margin: 0% 0% 0% 45%;
+		margin: 1% 0% 0% 45%;
 		padding-top: 1%;
 	}
 
@@ -111,5 +159,16 @@ body {
 	#nav-drop > li > a:hover {
 		background-color: #98ccc1;
 		padding: 3% 10% 3% 3%;
+	}
+	/*----------------- HOME -----------------*/
+	#home-intro {
+		padding: 0% 5% 0% 5%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#home-info-div,
+	#home-info-h3 {
+		display: none;
 	}
 }
