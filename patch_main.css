@@ -64,7 +64,13 @@ body {
 	text-decoration: none;
 }
 
+#item-indent {
+	margin: 0% 0% 0% 10%;
+}
 
+#item-verbage {
+	margin-top: -175px;
+}
 
 /*----------------------------------------- NAVBAR -----------------------------------------*/
 #nav-logo {
@@ -113,9 +119,6 @@ body {
 	z-index: 9999 !important;
 }
 
-#item-indent {
-	margin: 0% 0% 0% 10%;
-}
 
 
 /*----------------------------------------- HOME -----------------------------------------*/
@@ -237,6 +240,24 @@ body {
 
 
 
+/*----------------------------------------- ITEM-3 -----------------------------------------*/
+#item-3-list {
+	float: left;
+	width: 33.3333%;
+	padding: 0% 2% 10% 2%;
+}
+
+
+
+/*----------------------------------------- ITEM-4 -----------------------------------------*/
+#item-4-list {
+	float: left;
+	width: 49.9999%;
+	padding: 0% 2% 5% 2%;
+}
+
+
+
 /*----------------------------------------- FOOTER -----------------------------------------*/
 #footer-main {
 	text-align: center;
@@ -296,7 +317,8 @@ body {
 	#about-meet-section,
 	#item-1-list,
 	#item-bio,
-	#additional-items {
+	#additional-items,
+	#item-verbage {
 		padding: 0% 5% 0% 5%;
 	}
 
@@ -313,9 +335,21 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+	/*----------------- MULTI PAGE -----------------*/
 	#home-info-div,
 	#home-info-h3,
 	#about-bio-text {
 		display: none;
+	}
+	
+	#item-verbage {
+		margin: -225px 0px 0px 0px;
+	}
+
+	/*----------------- ITEM 3 -----------------*/
+	#item-3-list {
+		margin: 0px 0% 0% 0%;
+		float: none;
+		width: 100%;
 	}
 }
