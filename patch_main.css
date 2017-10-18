@@ -99,18 +99,79 @@ body {
 #home-login-img {
 	display: relative;
 	width: 100vw;
-	height: 20vh;
+	height: 30vh;
 	margin: 2% 0% 2% 0%;
 }
 
 #home-login-text {
 	display: absolute;
-	transform: translate(0%, -175%);
+	transform: translate(0%, -230%);
 	font-weight: bolder;
 	font-size: 18px;
 	text-align: center;
 	width: 100%;
 }
+
+
+/*----------------------------------------- ABOUT -----------------------------------------*/
+#about-h1 {
+	text-align: center;
+}
+
+#about-bio-section {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+}
+
+#about-placeholder-img {
+	border-radius: 50%;
+	margin: 3% 0% 3% 0%;
+	width: 50%;
+}
+
+#about-bio-text {
+	padding: 2% 2% 2% 2%;
+}
+
+#about-placeholder-middle {
+	width: 200%;
+	height: 50vh;
+	margin: 10% 0% 10% 0%;
+}
+
+#about-accordion-h1 {
+	text-align: center;
+}
+
+#about-accordion-div {
+	margin: 0% 0% 2% 0%;
+}
+
+#about-accordion-img {
+	border-radius: 50%;
+	float: left;
+	margin: 0% 3% 3% 0%;
+}
+
+#about-accordion > div {
+	background-color: #98ccc1;
+}
+
+#about-accordion > div > a {
+	color: black;
+}
+
+#about-accordion > div > a:hover {
+	text-decoration: none;
+}
+
+#about-panel > h5:hover {
+	font-size: 20px;
+}
+
+
+
 /*----------------------------------------- FOOTER -----------------------------------------*/
 #footer-main {
 	text-align: center;
@@ -126,6 +187,9 @@ body {
 	font-size: 10px;
 	font-weight: smaller;
 }
+
+
+
 /*----------------------------------------- MEDIA -----------------------------------------*/
 @media screen and (max-width:767px) {
 	/*----------------- NAVBAR -----------------*/
@@ -156,19 +220,28 @@ body {
 	}
 
 	#nav-list > li > a:hover,
-	#nav-drop > li > a:hover {
+	#nav-drop > li > a:hover, {
 		background-color: #98ccc1;
 		padding: 3% 10% 3% 3%;
 	}
-	/*----------------- HOME -----------------*/
-	#home-intro {
+	/*----------------- MULIT PAGE -----------------*/
+	#home-intro,
+	#about-accordion-div,
+	#about-accordion,
+	#about-meet-section {
 		padding: 0% 5% 0% 5%;
+	}
+
+	/*----------------- ABOUT -----------------*/
+	#about-panel > h5:hover {
+		padding: 0% 0% 0% 3%;
 	}
 }
 
 @media screen and (max-width: 550px) {
 	#home-info-div,
-	#home-info-h3 {
+	#home-info-h3,
+	#about-bio-text {
 		display: none;
 	}
 }
