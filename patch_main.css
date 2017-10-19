@@ -43,23 +43,27 @@ body {
 
 #item-bio {
 	margin: 15% 0% 0% 0%;
-	/*border: 2px solid red;*/
 }
 
 #additional-items {
-	margin: 10% 0% 0% 0%;
 	list-style: none;
+	text-align: center;
+	margin: 10% 0% 2% 0%;
 }
 
-#additional-items > li > a {
+#additional-item-list {
 	float: left;
+	width: 16.6666%;
+}
+
+#additional-item-list > a {
 	margin: 0% 4% 0% 0%;
 	color: black;
 }
 
-#additional-items > li > a:hover {
+#additional-item-list > a:hover {
 	background-color: #98ccc1;
-	padding: 1% 1% 1% 1%;
+	padding: 1% 10% 1% 10%;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -258,6 +262,19 @@ body {
 
 
 
+/*----------------------------------------- ITEM-5 -----------------------------------------*/
+#item-5-list {
+	float: left;
+	width: 49.9999%;
+	padding: 0% 2% 5% 2%;
+}
+
+#item-5-list-bottom {
+	float: left;
+	width: 33.3333%;
+	padding: 0% 2% 10% 8%;
+}
+
 /*----------------------------------------- FOOTER -----------------------------------------*/
 #footer-main {
 	text-align: center;
@@ -344,6 +361,10 @@ body {
 	
 	#item-verbage {
 		margin: -225px 0px 0px 0px;
+	}
+
+	#additional-item-list > a:hover {
+		font-size: 14px;
 	}
 
 	/*----------------- ITEM 3 -----------------*/
