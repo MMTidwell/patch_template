@@ -30,7 +30,7 @@ body {
 
 #item-text {
 	display: absolute;
-	transform: translate(15%, -200%);
+	transform: translate(15%, -175%);
 	text-align: center;
 	width: 75%;
 }
@@ -275,6 +275,22 @@ body {
 	padding: 0% 2% 10% 8%;
 }
 
+/*----------------------------------------- ITEM-6 -----------------------------------------*/
+#item-6-list {
+	float: left;
+	width: 49.9999%;
+	padding: 0% 2% 5% 2%;
+}
+
+#item-6 {
+	color: black;
+}
+
+#item-6:hover {
+	text-decoration: none;
+	background-color: #98ccc1;
+}
+
 /*----------------------------------------- FOOTER -----------------------------------------*/
 #footer-main {
 	text-align: center;
@@ -342,12 +358,17 @@ body {
 	#item-text {
 		padding: 0% 3% 0% 3%;
 		width: 100%;
-		transform: translate(0%, -175%);
+		transform: translate(0%, -150%);
 	}
 
 	/*----------------- ABOUT -----------------*/
 	#about-panel > h5:hover {
 		padding: 0% 0% 0% 3%;
+	}
+
+	/*----------------- ITEM-6 -----------------*/
+	#item-6-list {
+		width: 100%;
 	}
 }
 
