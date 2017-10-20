@@ -315,6 +315,55 @@ body {
 #item-7-h2 {
 	text-align: center;
 }
+/*----------------------------------------- ITEM-8 -----------------------------------------*/
+#item-8-search {
+	margin: -175px 0% 5% 25%;
+	max-width: 50%;
+}
+
+#item-8-search > div > span > button {
+	background-color: #98ccc1;
+}
+
+#item-8-search > div > input {
+	border: 2px solid #98ccc1;
+}
+
+#item-8-img {
+	width: 25%;
+	float: left;
+	margin: 0% 3% 0% 0%;
+}
+
+#item-8-specs {
+	width: 15%;
+	margin: 0% 3% 0% 0%;
+	float: left;
+}
+
+#item-8-details {
+	width: 36%;
+	float: left;
+}
+
+#itme-8-hr {
+	border: 1px solid #98ccc1;
+}
+
+#item-8-pagin {
+	width: 100%;
+	text-align: center;
+}
+#item-8-page-num {
+	margin: 2%;
+	color: black;
+}
+
+#item-8-page-num:hover {
+	background-color: #98ccc1;
+	text-decoration: none;
+	padding: 1% 1% 1% 1%;
+}
 /*----------------------------------------- CONTACT -----------------------------------------*/
 #contact-info {
 	text-align: center;
@@ -343,6 +392,19 @@ body {
 	font-weight: smaller;
 }
 /*----------------------------------------- MEDIA -----------------------------------------*/
+@media screen and (max-width: 1300px) {
+	/*----------------- ITEM-8 -----------------*/
+	#item-8-specs {
+		width: 30%;
+		display: inline-block;
+		float: none;
+	}
+
+	#item-8-details {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width:767px) {
 	/*----------------- NAVBAR -----------------*/
 	#nav-logo {
@@ -384,7 +446,8 @@ body {
 	#item-1-list,
 	#item-bio,
 	#additional-items,
-	#item-verbage {
+	#item-verbage,
+	#item-8-list {
 		padding: 0% 5% 0% 5%;
 	}
 
